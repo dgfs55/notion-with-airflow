@@ -1,8 +1,8 @@
 version: '3.7'
 # ====================================== AIRFLOW ENVIRONMENT VARIABLES =======================================
 x-environment: &airflow_environment
-  - NOTION_KEY=secret_KPzDq9SLmNO7UovT8q37XVy9tHia4BHunX0MvzsOSqL
-  - NOTION_DATABASE_ID=3eba4b847bbc407abff5eec0b3d36e03
+  - NOTION_KEY='''add notion key'''
+  - NOTION_DATABASE_ID='''add notion database id'''
 
   - AIRFLOW__API__AUTH_BACKEND=airflow.api.auth.backend.basic_auth
   - AIRFLOW__CORE__EXECUTOR=LocalExecutor
